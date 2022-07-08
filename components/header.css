@@ -1,0 +1,38 @@
+header{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    color: white;
+    height:12vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.name{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position:relative;
+    right:18vw;
+    font-size: 5vh;
+    height:max-content;
+    width:max-content;
+}
+
+.bar{
+    display:grid;
+    position:relative;
+    left:20vw;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 1vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.options{
+    background-color: white;
+    color: black;
+    margin-left:1vw;
+    font-size: 4vh;
+    height:max-content;
+    width:max-content;
+    font-family:'Lobster', cursive;
+}
