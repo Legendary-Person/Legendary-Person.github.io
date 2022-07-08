@@ -1,0 +1,62 @@
+@media screen and (max-width:800px){
+    header{
+        position: relative;
+        height:13vh;
+    }
+
+    .bar{
+        position:relative;
+    }
+
+    .options{
+        position:relative;
+        left:-20vw;
+        bottom:10px;
+    }
+
+    .name{
+        position:relative;
+        left:2vw;
+    }
+
+    .letsupgrade{
+        width:max-content;
+        height:max-content
+    }
+
+}
+
+@media screen and (max-height:400px){
+
+    header{
+        position: relative;
+        height:13vh;
+    }
+
+    .bar{
+        position:relative;
+        top:2vh;
+        left:28vw;
+    }
+
+    .name{
+        font-size:4vh;
+        position:relative;
+        left:-20vw;
+    }
+
+    .options{
+        position:relative;
+        font-size:3vh;
+        top:-1.5vh;
+        left:-5vw;
+    }
+
+    .letsupgrade{
+        position: relative;
+        bottom:-2vh;
+        width:50%;
+        height:50%;
+        left:-55vw;
+    }
+}
