@@ -1,0 +1,20 @@
+.pagethree{
+    display:flex;
+    background-color: black;
+    color:white;
+    font-style:italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.thirdPara{
+    position: relative;
+    bottom:-2vw;
+    left:5vw;
+    line-height: 190%;
+    font-style:italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width:50vw;
+    height:max-content;
+    line-break:auto;
+    font-size:3vh;
+}

@@ -1,0 +1,67 @@
+.pageone{
+    background-color: black;
+    color:white;
+}
+
+.greetings{
+    display: flex;
+    position: relative;
+    top:5vh;
+    left:5vw;
+    font-family: 'Bebas Neue', cursive;
+    font-size:27vh;
+    height:max-content;
+    width:max-content;
+    background-image: linear-gradient(
+    -225deg,
+    #fff800 0%, 
+    #ff1361 29%, 
+    #6904d6 67%,
+    #6c50d3 100% 
+  );
+  /* background-size: auto auto;
+  background-clip: border-box; */
+  background-size: 200% auto;
+  /* color: #fff; */
+  background-clip: text;
+  color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    animation:textclip 3s linear infinite;
+}
+
+.firstPara{
+    position: relative;
+    bottom:-3vw;
+    left:5vw;
+    line-height: 190%;
+    font-style:italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width:53vw;
+    height:max-content;
+    line-break:auto;
+    font-size:3vh;
+}
+
+.text{
+    position: relative;
+    font-size:6vh;
+    font-weight: bold;
+    bottom:2vh;
+}
+
+sup{
+    font-size: 2vh;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.myimage{
+    position: relative;
+    left:67vw;
+    bottom:45vh;
+    width:25vw;
+    border: none;
+    z-index:1;
+    display:flex;
+}
+
